@@ -21,6 +21,9 @@
  */
 
 import CoreGraphics
+#if os(iOS)
+import UIKit
+#endif
 
 #if os(iOS)
     public typealias LineCapStyle = CGLineCap
