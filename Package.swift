@@ -24,7 +24,7 @@ let package = Package(
         .target(
             name: "InkKit",
             dependencies: [],
-            path: "./GraphicsRenderer/Classes/"),
+            path: "./InkKit/Classes/"),
     ]
 )
 
